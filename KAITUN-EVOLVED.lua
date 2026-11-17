@@ -19,7 +19,7 @@ _G.FishItConfig = {
     ["Selling"] = {
         ["Auto Sell"] = true,           -- Sell at the count limit or near full capacity.
         ["Auto Sell Threshold"] = "Legendary", -- Sell up to: "Legendary", "Mythic", or "Secret".
-        ["Auto Sell Count"] = 333,      -- Fish count, not seconds.
+        ["Auto Sell Count"] = 555,      -- Fish count, not seconds.
         -- Favorites stay protected; pending quest fish can delay selling.
     },
 
@@ -66,8 +66,8 @@ _G.FishItConfig = {
     ["Bait List"] = {
         ["Auto Buy"] = true,            -- Buy listed upgrades from shops or merchant.
         ["Buy List"] = {
-            "Aether Bait",
             "Singularity Bait",
+            "None",
         }, -- Buy in order; keep current bait until upgraded.
         -- Singularity uses merchant. Empty buys nothing.
     },
@@ -145,7 +145,7 @@ _G.FishItConfig = {
 
     ["Create Transcended Stone"] = {
         ["Auto Create"] = false,        -- Sacrifice an allowed Secret fish; level 200+.
-        ["Allowed Sacrifice"] = {
+        ["Allows no Sacrifice"] = {
             "All",                      -- Any Secret fish, or use exact fish names.
         }, -- Empty allows no sacrifice.
         -- Does not check favorite or quest protection.
@@ -176,7 +176,7 @@ _G.FishItConfig = {
 
     -- Use plain names: "Ancient Ruin", "Ancient Ruin".
     ["Location Rods"] = {
-        ["Ancient Ruin"]  = { "Element Rod", "Ghostfinn Rod", "Diamond Rod" },
+        ["Ancient Ruin"]  = { "Element Rod", "Starter Rod", "Diamond Rod" },
     }, -- Fallback fishing spots; quest routes take priority.
     -- Unmatched rods keep the current spot.
     -- Empty keeps the current position.
