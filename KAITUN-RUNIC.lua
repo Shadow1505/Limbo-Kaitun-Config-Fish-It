@@ -66,8 +66,8 @@ _G.FishItConfig = {
     ["Bait List"] = {
         ["Auto Buy"] = true,            -- Buy listed upgrades from shops or merchant.
         ["Buy List"] = {
-            "Aether Bait",
             "Singularity Bait",
+            "None",
         }, -- Buy in order; keep current bait until upgraded.
         -- Singularity uses merchant. Empty buys nothing.
     },
@@ -79,7 +79,7 @@ _G.FishItConfig = {
     ["Totems"] = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
-        ["Totem List"] = { "Luck Totem", "nothing" }, -- Place first entry; restock all entries.
+        ["Totem List"] = { "Luck Totem", "None" }, -- Place first entry; restock all entries.
         ["Quantity"] = 50,               -- Stock target per totem.
         ["Minimum Rod"] = "Ghostfinn Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
@@ -176,7 +176,7 @@ _G.FishItConfig = {
 
     -- Use plain names: "Underwater City", "Underwater City".
     ["Location Rods"] = {
-        ["Underwater City"]  = { "Element Rod", "Ghostfinn Rod", "Diamond Rod" },
+        ["Underwater City"]  = { "Element Rod", "Diamond Rod", "Stater Rod" },
     }, -- Fallback fishing spots; quest routes take priority.
     -- Unmatched rods keep the current spot.
     -- Empty keeps the current position.
