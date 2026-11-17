@@ -174,9 +174,9 @@ _G.FishItConfig = {
         -- Quest rods: newly owned after the initial scan.
     },
 
-    -- Use plain names: "Underwater City", "Underwater City".
+    -- Use plain names: "Ancient Ruin", "Ancient Ruin".
     ["Location Rods"] = {
-        ["Underwater City"]  = { "Element Rod", "None", "Diamond Rod" },
+        ["Ancient Ruin"]  = { "Element Rod", "Ghostfinn Rod", "Diamond Rod" },
     }, -- Fallback fishing spots; quest routes take priority.
     -- Unmatched rods keep the current spot.
     -- Empty keeps the current position.
