@@ -176,7 +176,7 @@ _G.FishItConfig = {
 
     -- Use plain names: "Ancient Ruin", "Ancient Ruin".
     ["Location Rods"] = {
-        ["Ancient Ruin"]  = { "Ghostfinn Rod", "Element Rod", "Angler Rod" },
+        ["Ancient Ruin"]  = { "Ghostfinn Rod", "Element Rod", "Angler Rod", "Starter Rod" },
     }, -- Fallback fishing spots; quest routes take priority.
     -- Unmatched rods keep the current spot.
     -- Empty keeps the current position.
