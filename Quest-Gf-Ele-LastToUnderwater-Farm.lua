@@ -139,7 +139,7 @@ _G.FishItConfig = {
             "Empowered I",
             "Stormhunter I",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod", -- Requires this exact rod in inventory.
+        ["Minimum Rod"] = "Element Rod", -- Requires this exact rod in inventory.
         -- Altar 2 uses Transcended Stone, then Withering Stone.
     },
 
