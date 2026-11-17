@@ -144,7 +144,7 @@ _G.FishItConfig = {
     },
 
     ["Create Transcended Stone"] = {
-        ["Auto Create"] = true,        -- Sacrifice an allowed Secret fish; level 200+.
+        ["Auto Create"] = false,        -- Sacrifice an allowed Secret fish; level 200+.
         ["Allowed Sacrifice"] = {
             "All",                      -- Any Secret fish, or use exact fish names.
         }, -- Empty allows no sacrifice.
