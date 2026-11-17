@@ -19,7 +19,7 @@ _G.FishItConfig = {
     ["Selling"] = {
         ["Auto Sell"] = true,           -- Sell at the count limit or near full capacity.
         ["Auto Sell Threshold"] = "Legendary", -- Sell up to: "Legendary", "Mythic", or "Secret".
-        ["Auto Sell Count"] = 555,      -- Fish count, not seconds.
+        ["Auto Sell Count"] = 888,      -- Fish count, not seconds.
         -- Favorites stay protected; pending quest fish can delay selling.
     },
 
@@ -79,7 +79,7 @@ _G.FishItConfig = {
     ["Totems"] = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
-        ["Totem List"] = { "Luck Totem", "nothing" }, -- Place first entry; restock all entries.
+        ["Totem List"] = { "Luck Totem", "None" }, -- Place first entry; restock all entries.
         ["Quantity"] = 50,               -- Stock target per totem.
         ["Minimum Rod"] = "Ghostfinn Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
@@ -108,8 +108,8 @@ _G.FishItConfig = {
     ["Auto Trade"] = {
         ["Enabled"] = true,             -- Send selected items to whitelisted usernames.
         ["Whitelist Username"] = { "Evolved_A3RF", "evolved_a3rf" }, -- Roblox usernames; empty sends no offers.
-        ["Category Fish"] = { "Secret", "Mythic" },-- Fish tiers, combined with Fish Name matches.
-        ["Fish Name"] = {},             -- Names or { Name = "Elshark Gran Maja", "Gladiator Shark" Variant = "None" }.
+        ["Category Fish"] = { "Secret", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
+        ["Fish Name"] = {},             -- Names or { Name = "Deepsea Monster Axolotl", "Sea Eater", "Fluorivane" Variant = "None" }.
         ["Item Name"] = {
             "None",
             "Evolved Enchant Stone",
@@ -176,7 +176,7 @@ _G.FishItConfig = {
 
     -- Use plain names: "Ancient Ruin", "Ancient Ruin".
     ["Location Rods"] = {
-        ["Ancient Ruin"]  = { "Element Rod", "Ghostfinn Rod", "Diamond Rod" }, "Angler Rod" },
+        ["Ancient Ruin"]  = { "Ghostfinn Rod", "Element Rod", "Angler Rod" },
     }, -- Fallback fishing spots; quest routes take priority.
     -- Unmatched rods keep the current spot.
     -- Empty keeps the current position.
