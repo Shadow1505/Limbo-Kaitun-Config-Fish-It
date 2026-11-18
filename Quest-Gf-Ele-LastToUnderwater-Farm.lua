@@ -80,8 +80,8 @@ _G.FishItConfig = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
         ["Totem List"] = { "Luck Totem", "nothing" }, -- Place first entry; restock all entries.
-        ["Quantity"] = 30,               -- Stock target per totem.
-        ["Minimum Rod"] = "Ghostfinn Rod", -- Requires this exact rod in inventory.
+        ["Quantity"] = 15,               -- Stock target per totem.
+        ["Minimum Rod"] = "Astral Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
         -- Empty: place Luck Totem; buy nothing.
     },
@@ -188,7 +188,7 @@ _G.FishItConfig = {
 
     ["FPS Cap"] = {
         ["Enabled"] = true,             -- Enable the FPS limit.
-        ["Value"] = 60,                 -- 8, 15, 30, 60, 120, 240 FPS; default 60.
+        ["Value"] = 30,                 -- 8, 15, 30, 60, 120, 240 FPS; default 60.
     },
 
     ["Hide Other Player"] = true,    -- Hide other players on this client.
