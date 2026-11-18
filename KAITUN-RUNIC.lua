@@ -183,7 +183,7 @@ _G.FishItConfig = {
 
     ["Potato FPS Boost"] = {
         ["Enabled"] = true,             -- Apply the selected graphics mode.
-        ["Mode"] = "Aggressive",           -- "Smooth" or "Aggressive".
+        ["Mode"] = "Smooth",           -- "Smooth" or "Aggressive".
     },
 
     ["FPS Cap"] = {
