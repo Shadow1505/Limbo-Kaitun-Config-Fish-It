@@ -19,7 +19,7 @@ _G.FishItConfig = {
     ["Selling"] = {
         ["Auto Sell"] = true,           -- Sell at the count limit or near full capacity.
         ["Auto Sell Threshold"] = "Legendary", -- Sell up to: "Legendary", "Mythic", or "Secret".
-        ["Auto Sell Count"] = 888,      -- Fish count, not seconds.
+        ["Auto Sell Count"] = 555,      -- Fish count, not seconds.
         -- Favorites stay protected; pending quest fish can delay selling.
     },
 
@@ -80,7 +80,7 @@ _G.FishItConfig = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
         ["Totem List"] = { "Luck Totem", "None" }, -- Place first entry; restock all entries.
-        ["Quantity"] = 50,               -- Stock target per totem.
+        ["Quantity"] = 30,               -- Stock target per totem.
         ["Minimum Rod"] = "Ghostfinn Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
         -- Empty: place Luck Totem; buy nothing.
@@ -108,7 +108,7 @@ _G.FishItConfig = {
     ["Auto Trade"] = {
         ["Enabled"] = true,             -- Send selected items to whitelisted usernames.
         ["Whitelist Username"] = { "Evolved_A3RF", "evolved_a3rf" }, -- Roblox usernames; empty sends no offers.
-        ["Category Fish"] = { "Secret", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
+        ["Category Fish"] = { "Secret", "Forgotten", "Mythic" },-- Fish tiers, combined with Fish Name matches.
         ["Fish Name"] = {},             -- Names or { Name = "Deepsea Monster Axolotl", "Sea Eater", "Fluorivane" Variant = "None" }.
         ["Item Name"] = {
             "None",
@@ -188,7 +188,7 @@ _G.FishItConfig = {
 
     ["FPS Cap"] = {
         ["Enabled"] = true,             -- Enable the FPS limit.
-        ["Value"] = 60,                 -- 8, 15, 30, 60, 120, 240 FPS; default 60.
+        ["Value"] = 30,                 -- 8, 15, 30, 60, 120, 240 FPS; default 60.
     },
 
     ["Hide Other Player"] = true,    -- Hide other players on this client.
