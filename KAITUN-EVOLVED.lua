@@ -19,7 +19,7 @@ _G.FishItConfig = {
     ["Selling"] = {
         ["Auto Sell"] = true,           -- Sell at the count limit or near full capacity.
         ["Auto Sell Threshold"] = "Legendary", -- Sell up to: "Legendary", "Mythic", or "Secret".
-        ["Auto Sell Count"] = 888,      -- Fish count, not seconds.
+        ["Auto Sell Count"] = 555,      -- Fish count, not seconds.
         -- Favorites stay protected; pending quest fish can delay selling.
     },
 
@@ -108,7 +108,7 @@ _G.FishItConfig = {
     ["Auto Trade"] = {
         ["Enabled"] = true,             -- Send selected items to whitelisted usernames.
         ["Whitelist Username"] = { "Evolved_A3RF", "evolved_a3rf" }, -- Roblox usernames; empty sends no offers.
-        ["Category Fish"] = { "Secret", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
+        ["Category Fish"] = { "Secret", "Mythic", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
         ["Fish Name"] = {},             -- Names or { Name = "Deepsea Monster Axolotl", "Sea Eater", "Fluorivane" Variant = "None" }.
         ["Item Name"] = {
             "None",
@@ -188,7 +188,7 @@ _G.FishItConfig = {
 
     ["FPS Cap"] = {
         ["Enabled"] = true,             -- Enable the FPS limit.
-        ["Value"] = 60,                 -- 8, 15, 30, 60, 120, 240 FPS; default 60.
+        ["Value"] = 30,                 -- 8, 15, 30, 60, 120, 240 FPS; default 60.
     },
 
     ["Hide Other Player"] = true,    -- Hide other players on this client.
