@@ -19,7 +19,7 @@ _G.FishItConfig = {
     ["Selling"] = {
         ["Auto Sell"] = true,           -- Sell at the count limit or near full capacity.
         ["Auto Sell Threshold"] = "Mythic", -- Sell up to: "Legendary", "Mythic", or "Secret".
-        ["Auto Sell Count"] = 100,      -- Fish count, not seconds.
+        ["Auto Sell Count"] = 55,      -- Fish count, not seconds.
         -- Favorites stay protected; pending quest fish can delay selling.
     },
 
