@@ -30,7 +30,7 @@ _G.FishItConfig = {
 
     ["Quest"] = {
         ["Auto Ghostfinn Rod"] = true,  -- Deep Sea: Treasure Room and Sisyphus Statue.
-        ["Auto Element Rod"] = true,    -- Fish Ancient Jungle and Sacred Temple objectives.
+        ["Auto Element Rod"] = false,    -- Fish Ancient Jungle and Sacred Temple objectives.
         ["Auto Element Ruin"] = true,   -- Fish Ancient Ruin after Jungle and Ruin sacrifices.
         -- Ruin Secret catches also count toward Sacred Temple.
         ["Auto Diamond Rod"] = false,    -- Complete Diamond Researcher and claim Diamond Rod.
