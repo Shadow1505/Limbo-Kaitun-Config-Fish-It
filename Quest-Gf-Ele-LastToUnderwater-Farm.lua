@@ -81,7 +81,7 @@ _G.FishItConfig = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
         ["Totem List"] = { "Luck Totem", "nothing" }, -- Place first entry; restock all entries.
-        ["Quantity"] = 15,               -- Stock target per totem.
+        ["Quantity"] = 5,               -- Stock target per totem.
         ["Minimum Rod"] = "Astral Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
         -- Empty: place Luck Totem; buy nothing.
