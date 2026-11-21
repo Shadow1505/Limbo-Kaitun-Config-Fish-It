@@ -35,6 +35,7 @@ _G.FishItConfig = {
         -- Ruin Secret catches also count toward Sacred Temple.
         ["Auto Diamond Rod"] = false,    -- Complete Diamond Researcher and claim Diamond Rod.
         ["Auto Pickaxe"] = false,        -- Obtain Hank's Diary; requires Diamond Rod.
+        ["Auto Aetherion Bait"] = false,  -- Complete Crystalline Secrets;
         ["Minimum Rod"] = "Starter Rod",-- Requires this exact rod in inventory.
     },
 
