@@ -8,7 +8,7 @@ _G.FishItConfig = {
     ["Favorite"] = {
         ["Auto Favorite"] = true,       -- Protect matching fish from selling and outgoing trades.
         ["Fish Name"] = {
-            "Sacred Guardian Squid",               -- Any mutation.
+            "Sacred Guardian Squid", "Crocodile", "Goliath Tiger", "Freshwater Piranha",               -- Any mutation.
             { Name = "Ruby", Variant = "Gemstone" }, -- Ruby with Gemstone mutation.
             -- { Variant = "None" },             -- example: match any fish with this mutation
             -- { Tier = "Secret" },                 -- example: match any Secret fish
@@ -80,7 +80,7 @@ _G.FishItConfig = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
         ["Totem List"] = { "Luck Totem", "nothing" }, -- Place first entry; restock all entries.
-        ["Quantity"] = 15,               -- Stock target per totem.
+        ["Quantity"] = 3,               -- Stock target per totem.
         ["Minimum Rod"] = "Astral Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
         -- Empty: place Luck Totem; buy nothing.
