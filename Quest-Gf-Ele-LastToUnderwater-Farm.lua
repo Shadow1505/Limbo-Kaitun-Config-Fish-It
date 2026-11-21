@@ -197,5 +197,4 @@ _G.FishItConfig = {
     ["Always Bright"] = false,           -- Bright lighting with less fog.
 }
     
-script_key = "YOUR KEY"
 loadstring(game:HttpGet("https://limbohub.my.id/hub/kaitunfishit.lua"))()
