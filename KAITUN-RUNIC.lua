@@ -155,8 +155,8 @@ _G.FishItConfig = {
 
     ["WebHook"] = {
         ["Auto Sending"] = true,        -- Send personal fish/item/quest-rod notifications.
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1493860412998029464/32zAHDhb0N1xDPVTcr3amS4gIeYoIbODvX3uuioLCuSLYYntxXgn5w5M9myYU0FmIQdH",               -- Your Discord webhook URL.
-        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1547949922857255002/OXy1Etg5Q3mL2TcW0HPc4nBpeeQQowK9XonRSVCtXPUSDyn7ARwULhk3oOGSx6E55oyK", -- Quest-rod URL; blank uses Link Webhook.
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1574164739070623787/VPGAszJtht-7SHv43Lwi7uH-aFVVLNz0FFHMhtVfjQC1fZEijg7pNbkd6eybpJb8jgj9",               -- Your Discord webhook URL.
+        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1574163841942683738/oFd1OagL_Gb5uyO2B7Kyp0X0s-y2SPsVTdfYEgqcLYCUuxuy7ip63gz3cjGjE4zUdS6D", -- Quest-rod URL; blank uses Link Webhook.
         ["Tiers"] = {
             "Secret",
             "Forgotten",
