@@ -19,7 +19,7 @@ _G.FishItConfig = {
     ["Selling"] = {
         ["Auto Sell"] = true,           -- Sell at the count limit or near full capacity.
         ["Auto Sell Threshold"] = "Legendary", -- Sell up to: "Legendary", "Mythic", or "Secret".
-        ["Auto Sell Count"] = 555,      -- Fish count, not seconds.
+        ["Auto Sell Count"] = 222,      -- Fish count, not seconds.
         -- Favorites stay protected; pending quest fish can delay selling.
     },
 
@@ -81,7 +81,7 @@ _G.FishItConfig = {
         ["Auto Use"] = true,           -- Place the first selected totem.
         ["Auto Buy"] = true,           -- Restock to Quantity; requires Auto Use.
         ["Totem List"] = { "Luck Totem", "None" }, -- Place first entry; restock all entries.
-        ["Quantity"] = 50,               -- Stock target per totem.
+        ["Quantity"] = 10,               -- Stock target per totem.
         ["Minimum Rod"] = "Ghostfinn Rod", -- Requires this exact rod in inventory.
         -- Shop: "Luck Totem", "Shiny Totem", "Mutation Totem".
         -- Empty: place Luck Totem; buy nothing.
@@ -108,7 +108,7 @@ _G.FishItConfig = {
 
     ["Auto Trade"] = {
         ["Enabled"] = true,             -- Send selected items to whitelisted usernames.
-        ["Whitelist Username"] = { "mitos_a31", "evolved_a3rf" }, -- Roblox usernames; empty sends no offers.
+        ["Whitelist Username"] = { "shop_a3rf", "evolved_a3rf", "mitos_a31" }, -- Roblox usernames; empty sends no offers.
         ["Category Fish"] = { "Secret", "Mythic", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
         ["Fish Name"] = {},             -- Names or { Name = "Deepsea Monster Axolotl", "Sea Eater", "Fluorivane" Variant = "None" }.
         ["Item Name"] = {
