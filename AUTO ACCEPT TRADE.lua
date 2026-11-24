@@ -111,16 +111,16 @@ _G.FishItConfig = {
     ["Auto Trade"] = {
         ["Enabled"] = true,             -- Send selected items to whitelisted usernames.
         ["Whitelist Username"] = { "username1", "username2" }, -- Roblox usernames; empty sends no offers.
-        ["Category Fish"] = { "Secret", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
+        ["Category Fish"] = { "None", "None" },-- Fish tiers, combined with Fish Name matches.
         ["Fish Name"] = {},             -- Names or { Name = "Ruby", Variant = "Gemstone" }.
         ["Item Name"] = {
             "Enchant Stone",
-            "Evolved Enchant Stone",
-            "Runic Enchant Stone",
+            "None",
+            "None",
         }, -- Item names; empty selects none.
         ["Gears Name"] = {
-            "Withering Core",
-            "Tribunal Withering Core",
+            "None",
+            "None",
         }, -- Gear names; empty selects none.
         -- Locked and protected items are excluded.
         -- Auto-accept requires Enabled and a whitelisted sender.
