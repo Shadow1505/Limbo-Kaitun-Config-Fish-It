@@ -108,7 +108,7 @@ _G.FishItConfig = {
 
     ["Auto Trade"] = {
         ["Enabled"] = true,             -- Send selected items to whitelisted usernames.
-        ["Whitelist Username"] = { "shop_a3rf", "evolved_a3rf" }, -- Roblox usernames; empty sends no offers.
+        ["Whitelist Username"] = { "shop_a3rf", "bahanruin", "mitos_a31" }, -- Roblox usernames; empty sends no offers.
         ["Category Fish"] = { "Secret", "Forgotten" },-- Fish tiers, combined with Fish Name matches.
         ["Fish Name"] = {},             -- Names or { Name = "None", Variant = "None" }.
         ["Item Name"] = {
